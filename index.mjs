@@ -21,7 +21,9 @@ async function clickSearch() {
             console.log("Error: Fetch cat Images")
         }
     } 
-   
+    // else {
+    //     alert(`Please search for either 'dog' or 'cat'.`)
+    // }
 }
 
 
