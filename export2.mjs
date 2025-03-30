@@ -1,6 +1,6 @@
 export function displayDog(dogImages) {
     const container1 = document.getElementById('container1')
-    container1.innerHTML = "";
+    container1.innerHTML = '';
     dogImages.forEach(image => {
 const imgItem = document.createElement('img')
 imgItem.src= image.url;
@@ -9,7 +9,7 @@ container1.appendChild(imgItem)
     })
 
 }
-
+//displayDog()
 export function displayCat(catImages) {
     const container2 = document.getElementById('container2')
     container2.innerHTML = '';
@@ -22,3 +22,4 @@ export function displayCat(catImages) {
         container2.appendChild(imgElement);
     })
 }
+//displayCat()

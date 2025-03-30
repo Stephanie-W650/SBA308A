@@ -4,11 +4,14 @@ export async function secOne() {
         if (!response.ok) throw new Error ("failed to fetch images")
 
             const data = await response.json()
+            console.log(data)
             return data;
+            
     } catch (error) {
         console.log(error)
         throw error;
     }
+
 }
 
 //secOne();
