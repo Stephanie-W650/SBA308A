@@ -1,8 +1,8 @@
 JavaScript Web Application:
 
-Enter "dog" or "cat" in the search input box
-click "Search" to display images
-click "Show more images" button to see more image
+1. Enter "dog" or "cat" in the search input box.
+2. click "Search" to display images.
+3. click "Show more images" button to see more image.
 
 requirement: 
 - Use the fetch API or Axios to communicate with an external web API. Use the data provided by this API to populate your application’s content and features.
